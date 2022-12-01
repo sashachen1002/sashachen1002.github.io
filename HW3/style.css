@@ -1,0 +1,29 @@
+label{
+
+	float: left;
+}
+div{
+	float: right;
+	border-style: hidden;
+	font-style: ;
+
+}
+
+input{
+
+	margin-left: auto;
+	margin-right: auto;
+	
+
+ 	border: 2px solid black;
+ 	border-radius: 8px;
+ 	padding-top: 0.5%;
+ 	padding-left: 10%;
+ 	padding-bottom: 0.5%;
+	
+}
+
+img{
+	width: 40%;
+	height: 40%;
+}
