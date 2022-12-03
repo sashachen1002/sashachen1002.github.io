@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+title{
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+
+}
+
 input[type=text] , textarea{
   width: 40%;
   padding: 12px;
@@ -29,6 +36,18 @@ label {
 .col-75 {
   float: left;
   width: 90%;
+  margin-top: 6px;
+}
+
+.col-25-1 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
+.col-75-1 {
+  float: left;
+  width: 38.2%;
   margin-top: 6px;
 }
 
