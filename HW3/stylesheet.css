@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-title{
-  float: left;
-  width: 20%;
-  margin-top: 6px;
-
-}
-
 input[type=text] , textarea{
   width: 40%;
   padding: 12px;
