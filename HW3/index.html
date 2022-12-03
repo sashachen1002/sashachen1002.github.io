@@ -4,35 +4,67 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" >
 
-	<link rel="stylesheet" type="text/css" href="style.css" >
 </head>
 <body>
-	
-	<div>
-		<label>Book Name</label>
-		<input book_name="book_name" type="text" placeholder="book name" ></p>
-	</div>
+	<div class="container">
 
-	<div>
-		<label>Author</label>
-		<input author="author" type="text" placeholder="author">
-	
-		<label>Publisher</label>
-		<input publisher="publisher" type="text" placeholder="publisher"></p>
-	</div>
+  		<div class="row">
+    		<div class="col-25">
+      			<label for="fname">Book name</label>
+    		</div>
+    		<div class="col-75">
+      		<input type="text" id="fname" name="book_name" placeholder="Book name">
+    		</div>
+  		</div>
 
-	<div>
-		<label>Summary</label>
-		<input summary="summary" type="text" placeholder="summary"></p>
-	</div>
+  		<div class="row">
+    		<div class="col-25">
+     			<label for="lname">Author</label>
+    		</div>
+    		<div class="col-75">
+      			<input type="text" id="lname" name="author" placeholder="Author">
+    		</div>
+  		</div>
 
-	<div>
-		<label>Review</label>
-		<input review="review" type="text"></p>
-	</div>
+  		<div class="row">
+    		<div class="col-25">
+      			<label for="country">Publisher</label>
+    		</div>
+    		<div class="col-75">
+      			<input type="text" id="lname" name="publisher" placeholder="Publisher">
+   			 </div>
+  		</div>
 
-	<img src="mimi037.jpg" alt="ghibli"/>
+  		<div class="row">
+    		<div class="col-25">
+      			<label for="subject">Summary</label>
+    		</div>
+    		<div class="col-75">
+      			<input type="text" id="lname" name="summary" placeholder="Summary">
+    		</div>
+  		</div>
+
+  		 <div class="row">
+    		<div class="col-25">
+      			<label for="subject">Review</label>
+    		</div>
+    		<div class="col-75">
+      			<textarea id="subject" name="review" style="height:200px"></textarea>
+    		</div>
+  		</div>
+
+  		<div class="row">
+    		<div class="col-25">
+      			<label for="subject">Ghibli pic.</label>
+    		</div>
+    		<div class="col-75">
+      			<img src="mimi037.jpg" alt="ghibli"/>
+    		</div>
+  		</div>
+
+	</div>
 
 </body>
 </html>
