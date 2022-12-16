@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var num, rand;
+		
+		num = window.prompt("Guess a integer form 1 to 10");
+		rand = Math.floor((Math.random()*10)+1);
+
+		num = parseInt(num);
+		rand = parseInt(rand);
+
+		while(num!=rand){
+
+			num = window.prompt("Incorrect! Guess a integer form 1 to 10 again!");
+			num = parseInt(num);
+
+		}
+
+		alert("Correct!");
+		document.writeln("Click F5 to restart!");
+	</script>
+
+</body>
+</html>
