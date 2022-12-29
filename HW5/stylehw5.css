@@ -1,0 +1,38 @@
+/* Set the layout of the calculator */
+body{
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #333;
+  border-radius: 10px;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+/* Style the buttons */
+button {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #333;
+  border: none;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Change the appearance of the buttons on hover */
+button:hover {
+  background-color: #444;
+}
+
+/* Style the display area */
+#result {
+  font-size: 36px;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0;
+}

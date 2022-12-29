@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="stylehw5.css">
+</head>
+<body>
+	<h2>JS Calculator</h2>
+	<p>Number1</br>
+	<input type="number" name="num1" id="num1"></p>
+
+	<p>Number2</br>
+	<input type="number" name="num2" id="num2"></p>
+
+	<p>Operate way?</br>
+
+	<form>
+	<select name="operator" id="operator">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+	</select>
+	</form>
+	</p>
+
+	<p><button type="button" id="calculate-button" onclick="doTheOperation()">Calculate</button></p>
+	<p id="result"></p>
+
+	<script>
+		function doTheOperation() {
+			var num1 = document.getElementById("num1").value;
+			var num2 = document.getElementById("num2").value;
+			num1 = parseInt(num1);
+			num2 = parseInt(num2);
+			var result;
+			var button = document.getElementById("calculate-button");
+			var operator = document.getElementById("operator").value;
+
+			if(operator=="+"){
+
+				result = num1 + num2;
+
+			}else if(operator=="-"){
+
+				result = num1 - num2;
+
+			}else if(operator=="*"){
+
+				result = num1 * num2;
+
+			}else if(operator=="/"){
+
+				result = num1 / num2;
+
+			}
+
+			document.getElementById("result").innerHTML = "Result= " + result;
+		}
+
+		operator.addEventListener("change", function() {
+ 
+    		 button.innerHTML = operator;
+  		});
+
+
+	</script>
+
+	
+
+</body>
+</html>
